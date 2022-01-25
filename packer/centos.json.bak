@@ -34,13 +34,13 @@
           "modifyvm",
           "{{.Name}}",
           "--memory",
-          "2048"
+          "1024"
         ],
         [
           "modifyvm",
           "{{.Name}}",
           "--cpus",
-          "4"
+          "2"
         ]
       ],
       "vm_name": "packer-centos-vm"
